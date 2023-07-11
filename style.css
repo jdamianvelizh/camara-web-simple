@@ -1,0 +1,25 @@
+*{
+box-sizing: border-box;
+}
+.camara{
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  aspect-ratio: 9/16;
+  overflow: hidden;
+}
+
+canvas{
+    border: solid 1px blue;
+}
+
+.camara canvas{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border: solid 1px blue;
+    background-color: white;
+  }
+  
